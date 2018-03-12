@@ -1,0 +1,110 @@
+*,
+*::befor,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+ul,
+ol,
+p,
+dl,
+dd,
+figure,
+blockquote,
+pre {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: inherit;
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+img,
+audio,
+canvas,
+iframe,
+svg,
+video {
+  max-width: 100%; /* Set responsive behaviour */
+  height: auto;
+  vertical-align: middle; /* Remove bottom spacing under element (line-height) */
+}
+
+iframe {
+  border: none;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+input,
+textarea,
+button,
+optgroup,
+select {
+  margin: 0;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Fast Tap enables no-delay taps (FastClick-esque) on supporting browsers */
+a,
+button,
+input,
+label,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Make fonts more sexy */
+body,
+input,
+textarea,
+button,
+select {
+  -webkit-font-smoothing: antialiased;
+}
+
+
