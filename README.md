@@ -17,7 +17,7 @@ Reboot provides elegant reset and a few **must have** tweaks for your styles:
 ## Install
 
 ```sh
-npm install reboot.css
+npm install cssreboot
 ```
 
 Alternatives:

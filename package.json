@@ -1,0 +1,22 @@
+{
+  "name": "cssreboot",
+  "version": "1.0.3",
+  "description": "Pragmatic way to prepare your CSS",
+  "main": "reboot.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runnez/reboot.git"
+  },
+  "author": "Andrey Boldyrev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runnez/reboot/issues"
+  },
+  "homepage": "https://github.com/runnez/reboot#readme"
+}
