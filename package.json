@@ -1,6 +1,6 @@
 {
   "name": "cssreboot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pragmatic way to prepare your CSS",
   "main": "reboot.css",
   "directories": {
