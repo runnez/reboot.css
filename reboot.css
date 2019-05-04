@@ -32,7 +32,7 @@ ul, ol {
 }
 
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
 }
@@ -99,6 +99,11 @@ textarea {
 }
 
 /* Make fonts more sexy */
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body,
 input,
 textarea,
@@ -107,4 +112,17 @@ select {
   -webkit-font-smoothing: antialiased;
 }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
+select::-ms-expand {
+  display: none;
+}
+
+:-webkit-autofill {
+  box-shadow: 0 0 100px #fff inset;
+  -webkit-text-fill-color: currentColor;
+}
